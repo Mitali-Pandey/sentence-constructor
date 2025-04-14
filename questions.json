@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "sentence": "My ____ is ____.",
+      "options": ["name", "John"],
+      "blanks": ["name", "John"]
+    },
+    {
+      "id": 2,
+      "sentence": "I ____ to ____ code.",
+      "options": ["love", "write"],
+      "blanks": ["love", "write"]
+    }
+  ]
+}
