@@ -1,8 +1,7 @@
-// vite.config.js
-export default {
-  server: {
-    proxy: {
-      '/questions': 'http://localhost:3001',
-    },
-  },
-};
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  base: '/sentence-constructor/',
+  plugins: [react()],
+});
